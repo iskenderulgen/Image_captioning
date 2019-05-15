@@ -1,0 +1,91 @@
+Epoch 00001: val_loss improved from inf to 3.90995, saving model to /home/ulgen/Documents/Pycharm_Workspace/Caption_VGG/Data/Outputs/model.h5
+Epoch 2/10
+ - 544s - loss: 3.7225 - val_loss: 3.7697
+
+Epoch 00002: val_loss improved from 3.90995 to 3.76966, saving model to /home/ulgen/Documents/Pycharm_Workspace/Caption_VGG/Data/Outputs/model.h5
+Epoch 3/10
+ - 533s - loss: 3.5221 - val_loss: 3.7356
+
+Epoch 00003: val_loss improved from 3.76966 to 3.73558, saving model to /home/ulgen/Documents/Pycharm_Workspace/Caption_VGG/Data/Outputs/model.h5
+Epoch 4/10
+ - 535s - loss: 3.4117 - val_loss: 3.7407
+
+Epoch 00004: val_loss did not improve from 3.73558
+Epoch 5/10
+ - 539s - loss: 3.3451 - val_loss: 3.7151
+
+Epoch 00005: val_loss improved from 3.73558 to 3.71508, saving model to /home/ulgen/Documents/Pycharm_Workspace/Caption_VGG/Data/Outputs/model.h5
+Epoch 6/10
+ - 540s - loss: 3.3030 - val_loss: 3.7402
+
+Epoch 00006: val_loss did not improve from 3.71508
+Epoch 7/10
+ - 541s - loss: 3.2742 - val_loss: 3.7657
+
+Epoch 00007: val_loss did not improve from 3.71508
+Epoch 8/10
+ - 534s - loss: 3.2526 - val_loss: 3.7762
+
+Epoch 00008: val_loss did not improve from 3.71508
+Epoch 9/10
+ - 533s - loss: 3.2407 - val_loss: 3.7713
+
+Epoch 00009: val_loss did not improve from 3.71508
+Epoch 10/10
+ - 532s - loss: 3.2334 - val_loss: 3.7894
+
+Epoch 00010: val_loss did not improve from 3.71508
+Dataset: 6000
+Descriptions: train=6000
+Vocabulary Size: 7579
+Description Length: 34
+Dataset: 1000
+Descriptions: test=1000
+Photos: test=1000
+BLEU-1: 0.568155
+BLEU-2: 0.307923
+BLEU-3: 0.208634
+BLEU-4: 0.098050
+Dataset: 6000
+Descriptions: train=6000
+startseq dog is running through the grass endseq
+
+Process finished with exit code 0
+
+
+
+startseq man in blue shirt is standing on the street endseq
+0
+startseq man in red shirt and blue shirt is standing in front of the street endseq
+1
+startseq man in red shirt and blue shirt is standing in front of the street endseq
+2
+startseq man in red shirt and blue shirt is standing in front of the street endseq
+3
+startseq man in red shirt and blue shirt and blue shirt and black shirt and black shirt endseq
+4
+startseq man in red shirt and blue shirt and blue shirt and blue shirt is standing in front of the street endseq
+5
+startseq man in red shirt is standing on the beach endseq
+6
+startseq man in blue shirt is standing on the street endseq
+7
+startseq man in red shirt is standing in the air endseq
+8
+startseq man in red shirt is standing in front of the street endseq
+9
+startseq man in red shirt and blue shirt is standing in front of the street endseq
+10
+startseq man in blue shirt is standing on the beach endseq
+11
+startseq man in blue shirt is standing on the street endseq
+12
+startseq man in red shirt is standing in front of the street endseq
+13
+startseq man in red shirt and blue shirt is standing in front of the street endseq
+14
+startseq man in red shirt is standing in front of the street endseq
+15
+startseq man in red shirt and blue shirt is standing in front of the street endseq
+16
+
