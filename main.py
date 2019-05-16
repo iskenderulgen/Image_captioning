@@ -38,7 +38,7 @@ if __name__ == "__main__":
     # This section extract descriptions
     exists = os.path.isfile(PATH + 'Outputs/descriptions.txt')
     if exists:
-        print("File Already Exist")
+        print("Dosya Zaten Var Pasgec")
     else:
         filename = PATH + 'Flickr8k_text/Flickr8k.token.txt'
         # load descriptions
@@ -57,7 +57,7 @@ if __name__ == "__main__":
     # This section trains the model
     exists = os.path.isfile(PATH + 'Outputs/model.h5')
     if exists:
-        print("File Already Exist")
+        print("Dosya Zaten Var Pasgec")
     else:
         # train dataset
 
