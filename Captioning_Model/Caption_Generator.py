@@ -1,5 +1,5 @@
-from keras.applications.vgg16 import preprocess_input
-from keras.applications.vgg16 import VGG16
+from keras.applications.inception_v3 import preprocess_input
+from keras.applications.inception_v3 import InceptionV3
 from keras.models import Model
 from keras.preprocessing.image import img_to_array
 from keras.preprocessing.image import load_img
@@ -8,7 +8,7 @@ from numpy import argmax
 
 
 def extract_features_caption(filename):
-    model = VGG16()
+    model = InceptionV3()
     model.layers.pop()
     model = Model(inputs=model.inputs, outputs=model.layers[-1].output)
     image = load_img(filename, target_size=(224, 224))
